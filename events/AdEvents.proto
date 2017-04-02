@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package events;
+
+enum EventType {
+    IMPRESSION = 0;
+    CLICK = 1;
+    SCROLL = 2;
+    CONVERSION = 3;
+    PIXEL = 4;
+}
+
+message AdEvent {
+    int64 timestamp = 1;
+    EventType event_type = 2;
+    string ssp = 3;
+    string i_hash = 4;
+    string cookie = 5;
+
+    string o_hash = 6;
+    string c_hash = 7;
+    string p_hash = 8;
+
+    string country = 10;
+    string host = 11;
+
+    string p_name = 30;
+}

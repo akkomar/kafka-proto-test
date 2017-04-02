@@ -1,0 +1,21 @@
+{
+    "memo": "6eabfb8b3b1031e00ba05cbad4b690e87eeee17f73ae20d6df121dae3dbf400d",
+    "projects": [
+        {
+            "name": "github.com/confluentinc/confluent-kafka-go",
+            "version": "v0.9.4",
+            "revision": "a9b5c269c66e9a2eb5f195563b2f01e65a84c527",
+            "packages": [
+                "kafka"
+            ]
+        },
+        {
+            "name": "github.com/golang/protobuf",
+            "branch": "master",
+            "revision": "2bba0603135d7d7f5cb73b2125beeda19c09f4ef",
+            "packages": [
+                "proto"
+            ]
+        }
+    ]
+}
